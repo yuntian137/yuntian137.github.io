@@ -1,81 +1,90 @@
-# About Me
+# 关于我
 
-Hi, I'm **Chengyi Song (宋承怿)** 👋
+你好，我是 **宋承怿 (Chengyi Song)** 👋
 
-[cite_start]I am an undergraduate student at the **South China University of Technology (SCUT)** [cite: 196, 255][cite_start], pursuing a B.Eng. in **Automation** with an expected graduation date of July 2026[cite: 198, 257]. [cite_start]I am also a member of the **"Everest Program" for Super Robotics** [cite: 199, 258][cite_start], an interdisciplinary elite program (30 students/cohort) focused on advanced robotics, AI, and control systems[cite: 199, 258].
+我目前是**华南理工大学（SCUT）**的本科生，主修**自动化专业**，预计2026年7月毕业。我也是**"珠峰计划"超级机器人班**（每届30人）的成员，这是一个专注于先进机器人、人工智能和控制系统的跨学科精英项目。
 
-[cite_start]My passion lies at the intersection of **robotics dynamics & control**, **embedded systems development**, and **ROS (Robot Operating System)**[cite: 248, 249, 259, 260]. [cite_start]I have gained extensive hands-on experience leading teams in the **RoboMaster University Championship** for two consecutive seasons [cite: 209, 218] [cite_start]and honed my embedded software skills during an internship at **Insta360**[cite: 202, 268].
+我的研究兴趣主要集中在**机器人动力学与控制**、**嵌入式系统开发**以及 **ROS（机器人操作系统）**的交叉领域。在过去的两年中，我曾连续两个赛季带领团队参加**RoboMaster机器人大赛**，并在 **Insta360** 实习期间积累了丰富的嵌入式软件开发经验。
 
-I am actively seeking research or internship opportunities where I can contribute my skills to challenging problems in robotics and autonomous systems.
-
----
-
-## 🎓 Education
-
-* [cite_start]**South China University of Technology (SCUT)** [cite: 196, 255]
-    * **B.Eng. in Automation**
-    * [cite_start]*Sep 2022 – Jul 2026 (Expected)* [cite: 198, 257]
-    * [cite_start]**Honors:** Selected for the "Everest Program" for Super Robotics (Top 30/cohort) [cite: 199, 258]
+我目前正在寻找机器人和自主系统领域的研究或实习机会。
 
 ---
 
-## 🚀 Core Experience & Projects
+## 🎓 教育背景
 
-### 1. Visiting Student @ HKUST (GZ)
-* [cite_start]**Dual-Arm Robot:** Independently replicated the OpenArm open-source robotic arm and developed corresponding **ROS2** interfaces for control and simulation[cite: 275].
-* [cite_start]**Dexterous Hands:** Implemented grasping and teleoperation functionalities using various dexterous hands, including the Brainco Revo2 and LeapHand[cite: 276].
-
-### 2. RoboMaster University Championship (RMUC)
-
-[cite_start]**Technical Advisor, Electrical Control Group (2025 Season)** [cite: 277]
-* [cite_start]**Achievements:** National First Prize (3rd Place) [cite: 294][cite_start], Regional First Prize (South Champion)[cite: 294].
-* [cite_start]**Contributions:** Led system miniaturization efforts for complex terrains[cite: 279]. [cite_start]Spearheaded R&D on state estimators and **MPC-based control frameworks** for novel platforms like four-wheel-legged robots[cite: 281]. [cite_start]Mentored the Electrical Control group on technical roadmaps and cross-team collaboration[cite: 282].
-
-[cite_start]**Sentry Robot Lead & Electrical Control Lead (2024 Season)** [cite: 219, 283]
-* [cite_start]**Achievements:** National First Prize (Runner-up) [cite: 242, 294][cite_start], Regional First Prize (Top 8, Central)[cite: 242, 294].
-* [cite_start]**Leadership:** Led a 10-member multidisciplinary team (Mechanical, EC, Vision)[cite: 230, 292].
-* **Core Technologies:**
-    * [cite_start]**Embedded Systems:** Developed the Sentry's gimbal control system based on **STM32F405** and **FreeRTOS**[cite: 223, 287].
-    * [cite_start]**Control Algorithms:** Designed and implemented a **Cascade PID + Feedforward** composite control algorithm, achieving a gimbal steady-state error of less than **0.05°**[cite: 224, 288].
-    * [cite_start]**Software Architecture:** Implemented a robust state machine and layered software framework, reducing debugging time by 30%[cite: 92, 225, 288].
-
-### [cite_start]3. Embedded Software Intern @ Insta360 [cite: 203, 269]
-* [cite_start]**Team:** Camera Engineering Dept., Wi-Fi/Bluetooth Team [cite: 202, 269]
-* [cite_start]*Dec 2024 – Mar 2025* [cite: 204, 270]
-* [cite_start]**Responsibilities:** Conducted functional and performance testing for **Wi-Fi/Bluetooth** modules on **embedded Linux** platforms[cite: 205, 271].
-* [cite_start]**Skills:** Analyzed test logs and C code (Makefile-based builds) to debug hardware drivers and protocol stacks[cite: 206, 271]. [cite_start]Managed version control and test branches using **Git**[cite: 207, 272].
-
-### 4. "Everest Program" Coursework Projects
-* [cite_start]**RL-Based Quadruped Locomotion:** Successfully trained an agent for robust locomotion on rugged terrain using **Reinforcement Learning (PPO)** in the **Isaac Gym (Isaacsim)** simulator[cite: 108, 110].
-* [cite_start]**MPC-Based Quadruped Locomotion:** Adapted an open-source MIT controller, implementing a Kalman Filter for state estimation and **Model Predictive Control (MPC)** for stable planar locomotion in the **Webots** simulator[cite: 112].
+* **华南理工大学（SCUT）**
+    * **自动化工程学士学位**
+    * *2022年9月 - 2026年7月（预计）*
+    * **荣誉：** 入选"珠峰计划"超级机器人班（前30名）
 
 ---
 
-## 💻 Technical Skills
+## 🚀 核心经历与项目
 
-* **Programming:**
-    * [cite_start]**C/C++:** Proficient (especially for Embedded Applications, C++11/17) [cite: 244, 263]
-    * [cite_start]**Python:** Proficient (Robotics Simulation, Machine Learning) [cite: 244]
-* **Robotics & Control:**
-    * [cite_start]**ROS:** **ROS2** (Topics, Services, Actions, Launch) [cite: 259]
-    * [cite_start]**Control Theory:** **PID** [cite: 248, 288][cite_start], **MPC** [cite: 248, 281][cite_start], **LQR** [cite: 248, 266][cite_start], State Estimation (Kalman Filter) [cite: 249]
-    * [cite_start]**Simulators:** **Isaac Gym (Isaacsim)** [cite: 247, 266][cite_start], **Webots** [cite: 247]
-* **Embedded Systems:**
-    * [cite_start]**Microcontrollers:** **STM32 Series** (F4, F1) [cite: 246]
-    * [cite_start]**OS:** **FreeRTOS** [cite: 247, 261][cite_start], **Embedded Linux** [cite: 246, 264]
-    * [cite_start]**Protocols:** **CAN**, **UART**, **SPI**, **IIC**, USB [cite: 249, 260]
-* **Software & Tools:**
-    * [cite_start]**Version Control:** **Git** [cite: 247, 272]
-    * [cite_start]**Hardware Debugging:** Oscilloscope, Logic Analyzer [cite: 262]
-* **Machine Learning:**
-    * [cite_start]**Algorithms:** XGBoost [cite: 250][cite_start], Reinforcement Learning [cite: 266][cite_start], SVM [cite: 265][cite_start], K-Means [cite: 250]
-    * [cite_start]**Skills:** Data Preprocessing, Feature Engineering [cite: 251]
+### 1. 香港科技大学（广州）访问学生
+* **双臂机器人项目：** 独立复现 OpenArm 开源机械臂，开发 **ROS2** 控制与仿真接口
+* **灵巧手项目：** 使用多种灵巧手（如 Brainco Revo2、LeapHand）实现抓取和遥操作功能
+
+### 2. RoboMaster 机器人大赛
+
+**技术顾问，电控组（2025赛季）**
+* **比赛成绩：** 全国一等奖（第3名），区域赛冠军（南部赛区）
+* **主要贡献：** 
+  - 领导复杂地形系统小型化工作
+  - 主导四足轮式机器人的状态估计器和基于MPC的控制框架研发
+  - 指导电控组技术路线规划和跨团队协作
+
+**哨兵机器人负责人 & 电控组长（2024赛季）**
+* **比赛成绩：** 全国一等奖（亚军），区域赛八强（中部赛区）
+* **团队管理：** 带领10人跨学科团队（机械、电控、视觉）
+* **核心技术：**
+  - **嵌入式系统：** 基于 **STM32F405** 和 **FreeRTOS** 开发云台控制系统
+  - **控制算法：** 设计实现 **级联PID+前馈** 复合控制算法，云台稳态误差小于0.05°
+  - **软件架构：** 实现稳健的状态机和分层软件框架，调试时间减少30%
+
+### 3. Insta360 嵌入式软件实习生
+* **所属团队：** 相机工程部，Wi-Fi/蓝牙组
+* **实习时间：** 2024年12月 - 2025年3月
+* **工作内容：** 
+  - 在嵌入式Linux平台上进行Wi-Fi/蓝牙模块功能和性能测试
+  - 分析测试日志和C代码（基于Makefile构建），调试硬件驱动和协议栈
+  - 使用Git管理版本控制和测试分支
+
+### 4. "珠峰计划"课程项目
+* **基于强化学习的四足机器人运动控制：** 使用 **强化学习（PPO）** 在 **Isaac Gym** 仿真器中训练实现复杂地形稳定运动
+* **基于MPC的四足机器人运动控制：** 改进MIT开源控制器，实现卡尔曼滤波状态估计和MPC平面运动控制
 
 ---
 
-## 📫 Contact Me
+## 💻 技术能力
 
-* **Email:** [s408378183@outlook.com](mailto:s408378183@outlook.com)
-* **Phone:** +86 13919163168
-* **GitHub:** `[Your_GitHub_Username]` (Please fill this in)
-* **LinkedIn:** `[Your_LinkedIn_Profile_URL]` (Recommended)
+* **编程语言：**
+  - **C/C++：** 精通（特别是嵌入式应用，C++11/17）
+  - **Python：** 精通（机器人仿真，机器学习）
+
+* **机器人与控制：**
+  - **ROS：** ROS2（话题、服务、动作、启动文件）
+  - **控制理论：** PID、MPC、LQR、状态估计（卡尔曼滤波）
+  - **仿真工具：** Isaac Gym、Webots
+
+* **嵌入式系统：**
+  - **单片机：** STM32系列（F4、F1）
+  - **操作系统：** FreeRTOS、嵌入式Linux
+  - **通信协议：** CAN、UART、SPI、IIC、USB
+
+* **开发工具：**
+  - **版本控制：** Git
+  - **硬件调试：** 示波器、逻辑分析仪
+
+* **机器学习：**
+  - **算法：** XGBoost、强化学习、SVM、K-Means
+  - **技能：** 数据预处理、特征工程
+
+---
+
+## 📫 联系方式
+
+* **邮箱：** s408378183@outlook.com
+* **电话：** +86 13919163168
+* **GitHub：** [你的GitHub用户名]
+* **领英：** [你的LinkedIn链接]
