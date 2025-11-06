@@ -2,11 +2,8 @@
 title: "Portfolio"
 excerpt: "Preview and download Chengyi Song's portfolio (PDF)."
 collection: portfolio
+published: false
 ---
-
-Below is an embedded preview of my portfolio. Make sure your PDF is stored at `files/portfolio.pdf` so both the preview and download link work.
-
-- [Download the portfolio (PDF)](/files/portfolio.pdf)
 
 <iframe
   src="/files/portfolio.pdf"

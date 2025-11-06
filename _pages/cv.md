@@ -59,26 +59,14 @@ Projects
 
 Honors & Awards
 ======
-* RoboMaster 2025 Super Competition — National First Prize (National Third Place), Jun 2025
-* RoboMaster 2024 Super Competition — National First Prize (National Runner-up), Aug 2024
-* RoboMaster 2025 Super Competition — South China Regional First Prize (Regional Champion), Jun 2025
-* RoboMaster 2024 Super Competition — Central China Regional First Prize (Regional Top 8), Jun 2024
+* RoboMaster 2025 University Competition — National First Prize (Finished third nationally), Jun 2025
+* RoboMaster 2024 University Competition — National First Prize (Finished second nationally), Aug 2024
+* RoboMaster 2025 University Competition — South China Regional First Prize (Regional Champion), Jun 2025
+* RoboMaster 2024 University Competition — Central China Regional First Prize (Regional Top 8), Jun 2024
 
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   

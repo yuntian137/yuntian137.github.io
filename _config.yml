@@ -23,7 +23,7 @@ repository               : "yuntian137/yuntian137.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.jpg"
+  avatar           : "profile.png"
   name             : "Chengyi Song"
   pronouns         : # example: "she/her"  
   bio              : "Academic portfolio for Chengyi Song."
@@ -280,14 +280,6 @@ defaults:
       share: true
       comment: true
   # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
-
 
 # Sass/SCSS
 sass:
